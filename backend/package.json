@@ -1,0 +1,15 @@
+{
+  "name": "recruitment-backend",
+  "version": "1.0.0",
+  "description": "招聘系统后端服务",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "multer": "^2.0.1",
+    "socket.io": "^4.8.1"
+  }
+}
